@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/ViniciusAlexsander/use-async-from-scratch/compare/v1.0.1...v1.1.0) (2024-06-07)
+
+
+### Bug Fixes
+
+* add NPM_TOKEN ([926da0f](https://github.com/ViniciusAlexsander/use-async-from-scratch/commit/926da0f36332face6aef9e6afe3511547a47deac))
+
+
+### Features
+
+* adicionando plugin do npm ([1d0da92](https://github.com/ViniciusAlexsander/use-async-from-scratch/commit/1d0da9254fb8f3bfa98d5c1fc12b1f9789b07242))
+
 ## [1.0.1](https://github.com/ViniciusAlexsander/use-async-from-scratch/compare/v1.0.0...v1.0.1) (2024-06-07)
 
 
