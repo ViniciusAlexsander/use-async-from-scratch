@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ViniciusAlexsander/use-async-from-scratch/compare/v1.0.0...v1.0.1) (2024-06-07)
+
+
+### Bug Fixes
+
+* testes ([3f0ea18](https://github.com/ViniciusAlexsander/use-async-from-scratch/commit/3f0ea1826823769717fb7f231e1b474080d4a274))
+
 # 1.0.0 (2024-06-07)
 
 
