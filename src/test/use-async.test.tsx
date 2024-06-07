@@ -1,7 +1,7 @@
 // Imports
-import { describe, it, expect } from "vitest";
-import { render, renderHook, screen, waitFor } from "@testing-library/react";
-import { useAsync } from "../lib/use-async"; // Adjust the import path accordingly
+import { renderHook, waitFor } from "@testing-library/react";
+import { describe, expect, it } from "vitest";
+import { useAsync } from "../lib/use-async";
 
 const mockQueryFnSuccess = () => {
   return new Promise<string>((resolve) => {

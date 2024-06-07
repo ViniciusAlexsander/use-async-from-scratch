@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "types": "",
+  "engines": {
+    "node": ""
+  },
+  "bin": "",
   "scripts": {
     "build": "tsc",
     "coverage": "vitest run --coverage",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "release": "semantic-release",
+    "release:dry": "semantic-release --dry-run",
   },
   "keywords": [],
   "author": "Vinicius Marinho",
@@ -19,12 +26,15 @@
   },
   "type": "module",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^14.5.2",
     "@types/react": "^18.2.79",
     "@vitest/ui": "latest",
     "jsdom": "^24.0.0",
+    "semantic-release": "^24.0.0",
     "vite": "latest",
     "vitest": "latest"
   }
