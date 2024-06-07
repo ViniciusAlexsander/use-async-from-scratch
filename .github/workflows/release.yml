@@ -1,30 +1,24 @@
-name: Release
-
+name: test
 on:
   push:
     branches:
-      - main
+      # Change this if your primary branch is not main
+      - master
+      - dev
 
 jobs:
-  release:
+  main:
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write # Set permissions for this specific job
-
+      contents: write
+    environment:
+      name: teste #your environment name
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Install Node.js
-        uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          node-version: "14"
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run semantic-release
+          persist-credentials: false
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v4
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx semantic-release
