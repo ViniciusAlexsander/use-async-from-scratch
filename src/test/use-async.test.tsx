@@ -52,3 +52,4 @@ describe("useAsync hook", () => {
     expect(result.current.error).toBe("mock error");
   });
 });
+
