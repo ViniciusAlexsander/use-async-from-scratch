@@ -9,6 +9,8 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     environment:
       name: teste #your environment name
     steps:
